@@ -7,11 +7,10 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 iris = load_iris()
-X = iris.data[:, 2:4]  
-y = iris.target 
+X = iris.data[:, 2:4]
+y = iris.target
 
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)
-
 
 knn = KNeighborsClassifier(n_neighbors=5)
 
@@ -33,9 +32,15 @@ Z = Z.reshape(xx.shape)
 
 plt.figure(figsize=(8, 6))
 plt.contourf(xx, yy, Z, cmap=plt.cm.coolwarm, alpha=0.3)
+
 scatter = plt.scatter(X[:, 0], X[:, 1], c=y, cmap=plt.cm.coolwarm, edgecolor="k", s=40)
 plt.xlabel("Largo del pétalo (cm)")
 plt.ylabel("Ancho del pétalo (cm)")
 plt.title("Clasificación de especies de flores usando KNN")
-plt.legend(handles=scatter.legend_elements()[0], labels=iris.target_names, title="Especies")
+
+species = iris.target_names
+for i, species_name in enumerate(species):
+    plt.scatter([], [], color=plt.cm.coolwarm(i / 2), label=species_name)
+plt.legend(title="Especies")
+
 plt.show()
