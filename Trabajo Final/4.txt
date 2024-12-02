@@ -1,0 +1,9 @@
+Tipos de Algoritmos de Aprendizaje No Supervisado
+Definición:
+Los algoritmos de aprendizaje no supervisado trabajan con datos no etiquetados. El objetivo es identificar patrones ocultos o estructuras en los datos.
+
+Ejemplos:
+1. K-Means: Agrupa los datos en 𝑘 clusters según la proximidad de características.
+2. Algoritmo de agrupamiento jerárquico: Crea una jerarquía de grupos organizados en forma de árbol.
+3. Modelos de mezcla gaussiana (GMM): Extensión probabilística de 𝐾-Means.
+4. Análisis de componentes principales (PCA): Reduce la dimensionalidad de los datos mientras mantiene la mayor parte de la variabilidad.
