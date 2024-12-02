@@ -1,0 +1,13 @@
+Describe los tipos de algoritmos de aprendizaje supervisado: Explica qué son
+los algoritmos de aprendizaje supervisado y proporciona ejemplos de ellos.
+
+Tipos de Algoritmos de Aprendizaje Supervisado
+Definición:
+Los algoritmos de aprendizaje supervisado son técnicas de Machine Learning donde el modelo aprende a partir de datos etiquetados. Cada entrada (característica) en el conjunto de datos tiene una salida esperada (etiqueta), y el objetivo es que el modelo prediga correctamente la etiqueta para nuevas entradas.
+
+Ejemplos:
+1. Regresión lineal: Utilizada para predecir valores continuos, como el precio de una casa según su tamaño.
+2. Regresión logística: Se utiliza para problemas de clasificación binaria, como detectar si un correo es spam o no.
+3. Árboles de decisión: Modelos interpretables que dividen los datos en ramas según decisiones lógicas.
+4. Máquinas de vectores de soporte (SVM): Útiles para clasificaciones lineales y no lineales.
+5. Redes neuronales supervisadas: Adecuadas para tareas complejas como el reconocimiento de imágenes.
