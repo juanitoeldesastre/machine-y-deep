@@ -1,0 +1,12 @@
+Define la red neuronal artificial y su importancia en la IA: Explica qué es una red
+neuronal artificial y por qué es importante en el campo de la inteligencia artificial.
+
+Definición de Red Neuronal Artificial (ANN) y su Importancia en la IA
+Definición:
+Una red neuronal artificial (ANN, por sus siglas en inglés) es un modelo de aprendizaje computacional inspirado en las redes de neuronas biológicas presentes en el cerebro humano. Está formada por capas de nodos o "neuronas" artificiales que procesan información y aprenden patrones complejos a partir de datos.
+
+Importancia en la Inteligencia Artificial:
+Reconocimiento de patrones: Las ANN son fundamentales en tareas como reconocimiento de voz, imágenes y texto.
+Generalización: Pueden aprender relaciones no lineales entre variables, haciéndolas muy útiles en problemas complejos.
+Automatización: Sustituyen tareas manuales en áreas como clasificación, predicción y detección de anomalías.
+Deep Learning: Las ANN son la base de las técnicas de aprendizaje profundo (deep learning), que son esenciales en sistemas como vehículos autónomos y asistentes virtuales.
