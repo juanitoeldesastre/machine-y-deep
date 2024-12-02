@@ -1,0 +1,17 @@
+Identifica los tipos de redes neuronales artificiales: Presenta diferentes tipos de
+redes neuronales, como redes neuronales convolucionales (CNN) y redes
+neuronales recurrentes (RNN).
+
+Tipos de Redes Neuronales Artificiales
+1. Red Neuronal Perceptrón Multicapa (MLP):
+Consiste en múltiples capas completamente conectadas.
+Ideal para tareas de clasificación y regresión.
+2. Red Neuronal Convolucional (CNN):
+Especializada en el procesamiento de datos con estructura de cuadrícula, como imágenes.
+Utiliza convoluciones y capas de pooling para reducir dimensionalidad y extraer características importantes.
+3. Red Neuronal Recurrente (RNN):
+Diseñada para procesar secuencias de datos (como texto o series temporales).
+Tiene conexiones recurrentes que permiten mantener información de pasos previos.
+4. Red Neuronal Generativa (GAN):
+Consiste en dos redes: generadora y discriminadora.
+Se usa para generar datos nuevos, como imágenes o texto.
