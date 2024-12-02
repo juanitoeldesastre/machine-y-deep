@@ -1,0 +1,32 @@
+Describe la estructura de una red neuronal artificial: Explora la estructura básica
+de una red neuronal, incluyendo capas, neuronas y conexiones.
+
+Estructura de una Red Neuronal Artificial
+Componentes básicos:
+Capas:
+
+Capa de entrada: Recibe los datos de entrada (características o features).
+Capas ocultas: Procesan y transforman los datos mediante funciones de activación.
+Capa de salida: Proporciona el resultado final, como una predicción o clasificación.
+Neuronas:
+
+Cada neurona en una capa realiza una operación matemática sobre las entradas que recibe.
+Calcula una salida aplicando una función de activación, como la ReLU o la sigmoide.
+Conexiones y pesos:
+
+Las conexiones entre neuronas están asociadas con pesos (
+𝑤
+w) que determinan la importancia de una entrada.
+Los pesos se ajustan durante el entrenamiento para minimizar el error.
+Funciones de activación:
+
+Introducen no linealidad en el modelo, permitiendo que aprenda patrones complejos.
+Ejemplo de estructura de una ANN:
+Entrada
+→
+Capa oculta 1
+→
+Capa oculta 2
+→
+Salida
+Entrada→Capa oculta 1→Capa oculta 2→Salida
