@@ -1,0 +1,12 @@
+Para implementar el algoritmo 𝐾-Means en Python para el reconocimiento de dígitos manuscritos, 
+usaremos el conjunto de datos MNIST. Este conjunto es ampliamente utilizado para problemas de
+clasificación y aprendizaje automático y contiene imágenes de dígitos manuscritos.
+
+El objetivo de este ejemplo será aplicar 𝐾-Means a un subconjunto del conjunto MNIST 
+para agrupar los dígitos en grupos (𝑘=10, ya que hay 10 dígitos: 0-9).
+
+Implementación del Algoritmo 𝐾-Means
+Cargaremos el conjunto de datos MNIST (puede ser una versión reducida).
+Preprocesaremos los datos para ser usados con 𝐾-Means.
+Usaremos 𝐾-Means para agrupar los datos en 10 clusters.
+Visualizaremos algunos ejemplos y evaluaremos las agrupaciones.
