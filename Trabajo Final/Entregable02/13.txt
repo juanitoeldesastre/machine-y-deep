@@ -1,0 +1,50 @@
+Identifica los tipos de redes neuronales artificiales: Presenta diferentes tipos de
+redes neuronales, como redes neuronales convolucionales (CNN) y redes
+neuronales recurrentes (RNN).
+
+Tipos de Redes Neuronales Artificiales
+Existen diversos tipos de redes neuronales según la arquitectura y el tipo de datos que procesan:
+
+3.1. Redes Neuronales Feedforward (FFNN):
+Descripción:
+Los datos fluyen en una única dirección (de entrada a salida).
+Uso:
+Tareas simples de clasificación y regresión.
+Ejemplo:
+Predicción de precios de casas.
+3.2. Redes Neuronales Convolucionales (CNN):
+Descripción:
+Diseñadas específicamente para procesar datos con estructura espacial, como imágenes.
+Utilizan operaciones convolucionales para extraer características (e.g., bordes, texturas).
+Componentes principales:
+Capas convolucionales: Detectan características locales.
+Capas de agrupamiento (pooling): Reducen la dimensionalidad de los datos.
+Capas densas: Realizan la clasificación final.
+Usos:
+Reconocimiento de imágenes, detección de objetos, visión por computadora.
+Ejemplo:
+Clasificación de dígitos manuscritos (MNIST).
+3.3. Redes Neuronales Recurrentes (RNN):
+Descripción:
+Especializadas para procesar datos secuenciales.
+Mantienen un estado interno para "recordar" información de pasos anteriores.
+Usos:
+Procesamiento de lenguaje natural (NLP), series temporales, traducción automática.
+Variantes:
+LSTM (Long Short-Term Memory): Manejan dependencias a largo plazo.
+GRU (Gated Recurrent Units): Eficientes para tareas similares a las LSTM.
+3.4. Redes Neuronales Generativas Adversariales (GANs):
+Descripción:
+Compuestas por dos redes:
+Generador: Crea datos falsos.
+Discriminador: Distingue entre datos reales y generados.
+Ambas compiten para mejorar su rendimiento.
+Usos:
+Generación de imágenes realistas, síntesis de audio, deepfakes.
+3.5. Transformadores (Transformers):
+Descripción:
+Utilizan mecanismos de atención para capturar relaciones contextuales entre datos.
+Usos:
+Modelos de lenguaje como GPT y BERT.
+Ejemplo:
+Traducción automática, resumen de textos, generación de lenguaje natural.
